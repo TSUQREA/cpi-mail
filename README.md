@@ -23,3 +23,7 @@
 ### 注意事項
 - このプロファイルは`*.secure.ne.jp`ドメインのみに影響します
 - 必要がなくなった場合は設定からプロファイルを削除してください。
+
+
+### インストール用QR
+![qrcode_mc-nekoneko github io](https://github.com/user-attachments/assets/0266d0ee-eda9-4246-8f6c-7b613dc21ef4)
