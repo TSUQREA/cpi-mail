@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>secure.ne.jp用のTLS例外設定</string>
+            <key>PayloadDisplayName</key>
+            <string>TLS Exception for secure.ne.jp</string>
+            <key>PayloadIdentifier</key>
+            <string>com.secure.ne.jp.tls.exception</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.network</string>
+            <key>PayloadUUID</key>
+            <string>123e4567-e89b-12d3-a456-426614174000</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>TLSMinimumVersion</key>
+            <string>1.0</string>
+            <key>TLSExceptionDomains</key>
+            <dict>
+                <key>*.secure.ne.jp</key>
+                <dict>
+                    <key>TLSMinimumVersion</key>
+                    <string>1.0</string>
+                    <key>TLSAllowInsecureHTTPLoads</key>
+                    <true/>
+                    <key>TLSAllowInsecureServerCertificates</key>
+                    <true/>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>secure.ne.jp用のTLS設定</string>
+    <key>PayloadDisplayName</key>
+    <string>TLS Exception Settings</string>
+    <key>PayloadIdentifier</key>
+    <string>com.secure.ne.jp.tls.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>123e4567-e89b-12d3-a456-426614174001</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
