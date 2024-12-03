@@ -71,6 +71,13 @@
 
 ### Gmailアプリでのメール設定手順
 
+### Gmailアプリのインストール
+[App Store](https://apps.apple.com/jp/app/gmail-google-のメール/id422689480)からGmailアプリをインストール
+   
+#### インストール用QR
+![image](https://github.com/user-attachments/assets/a820b099-0696-4c83-a6b5-8210f6830a85)
+
+### メール設定手順
 1. Gmailアプリを開き、ログインボタンを押下
 2. メールの設定画面で「その他（IMAP）」を選択
 3. メールアドレスを入力し、「次へ」を押下
